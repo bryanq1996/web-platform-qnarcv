@@ -203,3 +203,36 @@ li {
   border-radius: 100%;
 }
 
+.bum {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 171, 209, 1);
+  padding: 70px 30px;
+  font-family: 'calibri', sans-serif;
+  text-transform: uppercase;
+  border-radius: 50%;
+  animation: animacion 2s linear infinite;
+}
+
+@keyframes animacion {
+  0% {
+    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0.6), 0 0 0 0 rgba(29, 171, 209, 0.6);
+  }
+  30% {
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0),
+      0 0 0 0 rgba(29, 171, 209, 0.6);
+  }
+
+  65% {
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0),
+      0 0 0 30px rgba(29, 171, 209, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
+  }
+}
