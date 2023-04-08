@@ -51,8 +51,7 @@ font {
 .hola{
   color: blue;
   background-color:cornflowerblue;
-  transition: all 2s linear;
-  transform-origin: rotate ;
+  transition: all 2s linear; 
   
   padding: 15px;
 }
