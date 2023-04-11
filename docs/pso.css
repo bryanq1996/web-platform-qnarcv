@@ -236,3 +236,14 @@ li {
     box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
   }
 }
+
+
+
+#main-container{
+  margin: 150px auto;
+  width: 600px;
+}
+table{
+  background-color: white;
+  width: 100%;
+}
