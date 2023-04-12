@@ -255,6 +255,7 @@ th, td{
 
 thead {
   background-color: #246455;
+  border-bottom: solid 5px #e47e09;
   color: white;
 } 
   tr:nth-child(event){
