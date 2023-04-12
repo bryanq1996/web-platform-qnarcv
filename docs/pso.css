@@ -249,7 +249,9 @@ table{
   width: 100%;
 }
 
- 
+th, td{
+  padding: 20px;
+}
 
 thead {
   background-color: #246455;
