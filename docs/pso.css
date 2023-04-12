@@ -254,11 +254,7 @@ th, td{
   padding: 0;
 }
 
-thead{
-  background-color: #246455;
-  border-bottom: solid 5px #e47e09;
-  color: white;
-} 
+ 
   tr:nth-child(event){
   background-color:#0bf0be;
 }
