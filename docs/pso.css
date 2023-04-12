@@ -266,9 +266,5 @@ table tr:nth-child(event) td{
 table tr:nth-child(odd) td{
   background-color:#0f1ef8;
 }
-table tr:hover{
-  background-color: #369681;
-  color: white;
-}
-
+ 
 
