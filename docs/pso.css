@@ -254,12 +254,16 @@ th, td{
   padding: 0;
 }
 
- 
+thead{
+  background-color: #246455;
+  border-bottom: solid 5px #0F362d;
+  color: white;
+} 
 table tr:nth-child(event) td{
   background-color:#369681;
 }
 
-table tr:nth-child(odd){
+table tr:nth-child(odd) td{
   background-color:#0f1ef8;
 }
 table tr:hover{
