@@ -243,13 +243,13 @@ li {
   margin: 150px auto;
   width: 600px;
 }
-table tr, th, td{ 
+table  { 
   text-align: left;
   border-collapse: collapse;
   width: 100%;
 }
 
-th, td{
+  td{
   padding: 20px;
 }
 
