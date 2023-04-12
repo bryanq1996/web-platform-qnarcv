@@ -249,7 +249,7 @@ table  {
   width: 100%;
 }
 
-  td{
+th, td{
   padding: 20px;
 }
 
@@ -259,7 +259,7 @@ thead{
    
 } 
   tr:nth-child(event){
-  background-color:rgb(245, 4, 4);
+  background-color:brown;
 }
 
   tr:nth-child(odd) {
