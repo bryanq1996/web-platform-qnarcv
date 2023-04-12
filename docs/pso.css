@@ -242,22 +242,9 @@ li {
 #main-container{
   margin: 150px auto;
   width: 600px;
-}
-table{ 
-  text-align: left;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td{
-  padding: 20px;
-}
-
-thead {
-  background-color: #246455;
-  border-bottom: solid 5px #e47e09;
-  color: white;
 } 
+ 
+ 
   tr:nth-child(event){
   background-color:#0bf0be;
 }
