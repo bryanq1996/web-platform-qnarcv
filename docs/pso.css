@@ -259,11 +259,11 @@ thead{
   border-bottom: solid 5px #0F362d;
   color: white;
 } 
-table tr:nth-child(event) td{
+table tr:nth-child(event){
   background-color:#369681;
 }
 
-table tr:nth-child(odd) td{
+table tr:nth-child(odd){
   background-color:#0f1ef8;
 }
 table tr:hover{
