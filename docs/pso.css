@@ -254,11 +254,7 @@ th, td{
   padding: 0;
 }
 
-thead{
-  background-color: #246455;
-  border-bottom: solid 5px #0F362d;
-  color: white;
-} 
+ 
 table tr:nth-child(event) td{
   background-color:#369681;
 }
