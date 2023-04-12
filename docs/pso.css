@@ -258,8 +258,7 @@ thead{
   background-color: #246455;
   border-bottom: solid 5px #0F362d;
   color: white;
-}
-//solo coje los hijos  par
+} 
 tr:nth-child(event){
   background-color:#369681;
 }
