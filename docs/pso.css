@@ -260,7 +260,7 @@ thead{
   color: white;
 } 
   tr:nth-child(event){
-  background-color:#0bf0be;
+  background-color:#ddd;
 }
 
   tr:nth-child(odd) {
