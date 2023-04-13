@@ -4,7 +4,11 @@ var i=0;
 
 function addLink(){
     console.log("add link 1")
-    
+    var link = document.createElement("li")
+
+    var ul = document.querySelector("aside ul"
+    ul.appendChild(child))
+
 }
 
 var elemento = document.getElementById("addLink")
