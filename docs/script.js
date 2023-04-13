@@ -5,7 +5,7 @@ var i=0;
 function addLink(){
     console.log("add link 1")
     var link = document.createElement("li")
-    link.innerHTML = "<a href='https://geogle.com'>geogle</a>"
+    link.innerHTML = "<a href=''>geogle</a>"
 
     var ul = document.querySelector("aside ul")
     ul.appendChild(child)
