@@ -1,4 +1,4 @@
-consola.log('UPS ECUADOR');
+consola.log('UPS ECUADOR')
 
 var i=0;
 
@@ -15,6 +15,6 @@ elemento,addEventListener("click", function(){
      console.log(i)
 })
 
-
+var menu = document.getElementById("menu")
 var listas=document.getElementsByTagName("li")
 console.log(listas)
