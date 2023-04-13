@@ -15,6 +15,13 @@ elemento,addEventListener("click", function(){
      console.log(i)
 })
 
-var menu = document.getElementById("menu")
-var listas=document.getElementsByTagName("li")
-console.log(listas)
+//var menu = document.getElementById("menu")
+//var listas=document.getElementsByTagName("li")
+//console.log(listas)
+
+
+//var list = document.querySelector("ul li")
+//console.log(list)
+
+var list2 = document.querySelector("aside li:nth-child(odd)")
+console.log(list2)
