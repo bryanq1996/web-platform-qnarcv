@@ -34,8 +34,12 @@ var nuevoParrafo = document.createElement("p");
   var parrafo = document.createTextNode("Este es un nuevo párrafo");
 
   // Añadir el contenido al nuevo elemento
-  nuevoParrafo.appendChild(texto);
+  nuevoParrafo.appendChild(parrafo);
 
   // Añadir el nuevo elemento al div existente
   var divExistente = document.getElementById("miDiv");
   divExistente.appendChild(parrafo);}
+
+  function addLink(){
+      console.log("add link 1")
+  }
