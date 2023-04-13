@@ -1,10 +1,8 @@
-const fulImgBox = document.getElementById("fulImgBox"),
-fulImg = document.getElementById("fulImg");
+consola.log('UPS ECUADOR');
 
-function openFulImg(reference){
-    fulImgBox.style.display = "flex";
-    fulImg.src = reference
-}
-function closeImg(){
-    fulImgBox.style.display = "none";
-}
+
+
+var elemento = document.getElementById("titulo1")
+elemento,addEventListener("click", function(){
+    alert("click en titulo");
+})
