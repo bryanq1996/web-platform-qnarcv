@@ -1,7 +1,17 @@
-consola.log('UPS ECUADOR')
+consola.log('UPS ECUADOR!')
 
 var i=0;
 
+function addLink(){
+    console.log("add link 1")
+    
+}
+
+var elemento = document.getElementById("addLink")
+elemento,addEventListener("click", function(){
+   // alert("click en titulo");
+   addLink()
+})
 var elemento = document.getElementById("titulo1")
 elemento,addEventListener("click", function(){
    // alert("click en titulo");
