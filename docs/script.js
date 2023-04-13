@@ -26,15 +26,16 @@ elemento,addEventListener("click", function(){
 var list2 = document.querySelector("aside li:nth-child(odd)")
 console.log(list2)
 
+function crearParrafo(){
 
 var nuevoParrafo = document.createElement("p");
 
   // Crear el contenido del nuevo elemento
-  var texto = document.createTextNode("Este es un nuevo párrafo");
+  var parrafo = document.createTextNode("Este es un nuevo párrafo");
 
   // Añadir el contenido al nuevo elemento
   nuevoParrafo.appendChild(texto);
 
   // Añadir el nuevo elemento al div existente
   var divExistente = document.getElementById("miDiv");
-  divExistente.appendChild(nuevoParrafo);
+  divExistente.appendChild(parrafo);}
