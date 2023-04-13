@@ -1,4 +1,11 @@
 
+body {
+  text-align: center;
+	background-color: #7ea6c7;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
 .cloud {
     width: 100px;
     height: 60px;
