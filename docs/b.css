@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:900");
+body {
+  text-align: center;
+  background-color: #7ea6c7;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
 h1 {
   font-family: "Exo 2", sans-serif;
   font-size: 8.5vw;
