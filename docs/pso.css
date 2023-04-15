@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(59, 46, 46);
+  background-color: white;
 }
 
 nav {
@@ -20,6 +20,10 @@ nav {
   background-color: #eee;
 }
 
+a {
+  color: yellow
+}
+
 nav a {
   display: inline-block;
   min-width: 9rem;
@@ -28,37 +32,43 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: blue;
+}
+
+aside a {
+  color: red
+}
+
+aside a.linkexterno {
+  color: yellow
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #ffffff;
+  background-color: #d4d4d4;
 }
 
 main {
   padding: 1rem;
 }
 
-font {
-  color: rgb(165, 132, 42);
+main div {
+  background-color: #aaa;
+  
+  
+}
+
+main div a{
+  font-size: 40px;
+}
+
+
+h1 {
+  font-weight: bold;
   font-size: 1.5rem;
-  position: absolute;
-}
-.hola {
-  color: blue;
-  background-color: cornflowerblue;
-  transition: all 2s linear;
-
-  padding: 15px;
-}
-.hola:hover {
-  background-color: green;
 }
 
-.a {
-  background-color: violet;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -66,203 +76,45 @@ body {
 
 video {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  text-align: center;
-}
-
-.menu a {
-  display: block;
   position: relative;
-  overflow: hidden;
-}
-.menu a span:last-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: translateY(-100%);
-}
-
-.menu a span:first-child {
-  display: inline-block;
-  padding: 10px;
-}
-.menu a span {
-  transition: transform 0.2s ease-out;
-}
-.menu a:hover span:first-child {
-  transform: translateY(100%);
-}
-.menu a:hover span:last-child {
-  transform: none;
-}
-
-body {
-  background-color: lightgrey;
-}
-
-#kiko-slider {
-  font-family: sans-serif;
-  margin: auto;
-  background-color: white;
-  max-width: 800px;
-  width: 100%;
-  padding: 30px;
-  box-sizing: border-box;
-}
-
-#kiko-slider > ul,
-li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-#kiko-slider > ul.slider {
-  position: relative;
-  max-width: 800px;
-  width: 100%;
-  height: 300px;
-}
-
-#kiko-slider > ul.slider h1 {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 10px;
-  left: 50%;
-  top: 100px;
-  transform: translate(-50%, -50%);
-}
-
-#kiko-slider > ul.slider li {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  width: inherit;
-  height: inherit;
-  transition: opacity 0.5s;
-  background: #fff;
-}
-
-#kiko-slider > ul.slider li img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-#kiko-slider > ul.slider li:first-child {
-  opacity: 1;
-  /*Mostramos el primer <li>*/
-}
-
-#kiko-slider > ul.slider li:target {
-  opacity: 1;
-  /*Mostramos el <li> del enlace que pulsemos*/
-}
-
-#kiko-slider > .menu {
-  text-align: center;
-  margin: 20px;
-}
-
-#kiko-slider > .menu li {
-  display: inline-block;
-  text-align: center;
-}
-
-#kiko-slider > .menu li a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background-color: grey;
-  padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  border-radius: 100%;
-}
-
-.bum{
-  text-decoration: none;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(29, 171, 209, 1);
-  padding: 70px 30px;
-  font-family: 'calibri', sans-serif;
-  text-transform: uppercase;
-  border-radius: 50%;
-  animation: animacion 2s linear infinite;
-}
-
-@keyframes animacion {
-  0% {
-    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0.6), 0 0 0 0 rgba(29, 171, 209, 0.6);
-  }
-  30% {
-    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0),
-      0 0 0 0 rgba(29, 171, 209, 0.6);
-  }
-
-  65% {
-    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0),
-      0 0 0 30px rgba(29, 171, 209, 0);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
-  }
-}
-
-
-
-#main-container{
-  margin: 150px auto;
-  width: 600px;
-} 
-
-th, td{
+  z-index: 1;
   padding: 20px;
-}
-
-thead {
-  background-color: #246455;
-  border-bottom: solid 5px #e47e09;
   color: white;
-} 
-  tr:nth-child(event){
-  background-color:#0bf0be;
+  font-size: 24px;
+  text-align: center;
 }
 
-  tr:nth-child(odd) {
-  background-color:#0f1ef8;
+#linkgoogle {
+  color: #aaa;
 }
-  tr:hover{
-  background-color: #369681;
-   
+
+.new_size {
+  font-size: xx-large;
 }
 
 
+/* Definimos la animación llamada "desplazar" */
+@keyframes desplazar {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* Aplicamos la animación al elemento "li" */
+.desplazar {
+  animation-name: desplazar;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
